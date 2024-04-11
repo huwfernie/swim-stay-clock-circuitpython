@@ -1,0 +1,3 @@
+CLOCK_WIFI_SSID = "my_WiFi_name"
+CLOCK_WIFI_PASSWORD = "my_secret_password"
+CLOCK_BEACH_NAME = "Gyllingvase"

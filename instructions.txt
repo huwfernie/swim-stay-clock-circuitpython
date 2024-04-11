@@ -1,0 +1,32 @@
+** The Swim or Stay clock - (SAS Edition of The Yes/No Clock) **
+
+This is the swim/surf clock, wake up, check the time, check the beach water quality.
+
+The clock connects to your WiFi, checks the internet and will update the water quality status every hour.
+
+
+* Batteries:
+The clock needs 4 AA batteries to run.
+
+* Setup:
+The clock needs your wifi name and password so it can get the latest water quality.
+
+If you plug in the USB cable, you'll see a file called "settings.toml", it should look like this:
+
+```
+CLOCK_WIFI_SSID = "my_WiFi_name"
+CLOCK_WIFI_PASSWORD = "my_secret_password"
+CLOCK_BEACH_NAME = "Gyllingvase"
+```
+
+Each setting can be updated to connect to your WiFi and get your local water conditions.
+
+Beach Names:
+The beach name can be any point listed on the map here: https://www.sas.org.uk/water-quality/sewage-pollution-alerts/
+(Note that it is case sensitive and has to match exactly)
+
+Software update:
+If anything goes wrong please email xxx@gmail.com and I can send you a software update.
+
+Contact / support / feedback:
+Please email xxx@gmail.com
